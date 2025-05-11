@@ -31,6 +31,11 @@ Follow these steps to run the project locally:
 git clone <your-repo-url>
 cd <project-folder>
 
+### 2. Package Install
+    yarn
+
+
+
 
 
 
