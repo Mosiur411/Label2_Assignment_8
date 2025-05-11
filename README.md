@@ -2,7 +2,7 @@
 
 BikeNest is a powerful backend solution designed for bike servicing centers to manage their customers, bikes, and service records efficiently. It provides a structured and RESTful API built using modern web technologies to support future enhancements like authentication, invoicing, and notifications.
 
-🔗 **Live Backend URL**: [https://bike-nest.vercel.app](https://bike-nest.vercel.app)
+🔗 **Live Backend URL**: [https://label2-assignment-8.vercel.app/](https://label2-assignment-8.vercel.app/)
 
 ---
 
