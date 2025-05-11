@@ -10,6 +10,19 @@ MotoServ is a backend API designed to simplify the management of bike servicing 
 🌐  [https://label2-assignment-8.vercel.app/](https://label2-assignment-8.vercel.app/)
 
 --- 
+# 🚀 Project Highlights - MotoServ
+
+1. **Customer Handling:**  
+   Users have the ability to input, review, and revise customer details seamlessly.
+
+2. **Bike Tracking:**  
+   Each user can register and view bikes linked specifically to their profile.
+
+3. **Service History Oversight:**  
+   Allows users to log maintenance tasks, monitor past service activities for individual bikes, and update the current status of those records.
+
+
+--- 
 
 ## 🧑‍💻 Tech Stack
 
@@ -22,17 +35,42 @@ MotoServ is a backend API designed to simplify the management of bike servicing 
 ---
 
 ## ⚙️ Setup Guide
+Follow these steps to set up the project locally:
 
-Follow these steps to run the project locally:
+1. **Clone the repository**
 
-### 1. Clone the Repository
+   ```bash
+   git clone <repository-url>
+   cd <project-folder>
+   ```
+
+2. **Install the required dependencies**
 
 ```bash
-git clone <your-repo-url>
-cd <project-folder>
+yarn install
+```
 
-### 2. Package Install
-    yarn
+3. **Create a `.env` file in the root directory and configure the following environment variables**
+
+```bash
+
+ DATABASE_URL=<your_database_url>
+
+```
+
+4. **Start the Server**
+
+```bash
+ yarn dev
+```
+
+5. **The Live Site will be available at**
+
+```bash
+http://localhost:5000
+```
+
+
 
 
 
