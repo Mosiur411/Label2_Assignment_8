@@ -1,62 +1,43 @@
-## :bike: BikeNest - Bike Servicing Management API Summary
+# 🚲 BikeNest – Bike Servicing Management API
 
-The BikeNest Servicing Management System is a RESTful backend API designed to help bike servicing centers efficiently manage their operations. It enables easy handling of customer data, bike information, and service records through structured and scalable endpoints.
+BikeNest is a powerful backend solution designed for bike servicing centers to manage their customers, bikes, and service records efficiently. It provides a structured and RESTful API built using modern web technologies to support future enhancements like authentication, invoicing, and notifications.
 
-This system supports full CRUD operations for customers, bikes, and services, along with special endpoints to assign new service jobs and mark services as completed. For example, a specific endpoint allows setting a service's status to "done" and optionally includes a custom completionDate.
+🔗 **Live Backend URL**: [https://bike-nest.vercel.app](https://bike-nest.vercel.app)
 
-The backend is built with Node.js, Express.js, and Prisma ORM, and uses PostgreSQL as the database. The codebase follows a modular and scalable architecture, making it easy to integrate features like authentication, invoicing, and notifications in the future.
+---
 
-## [ Live backend Link](https://bike-nest.vercel.app/)
+## 📌 Features
 
-Click here for the Live Backend Link: [https://bike-nest.vercel.app/](https://bike-nest.vercel.app/)
+- **Customer Management**
+  - Add new customers
+  - Update or delete customer details
+  - Retrieve customer lists or specific profiles
 
-## 🚀 Project Features - BikeNest
+- **Bike Management**
+  - Register bikes under a customer
+  - Fetch bike details per customer
 
-1. **Customer Management:** Customer Can Add, View, Update Customer Data.
-2. **Bike Management:** Each customer can create and Get their bikes.
-3. **Service Record Management:** User Can add service, Track service history for each bike and update service records status.
+- **Service Record Management**
+  - Add new service entries for bikes
+  - Update service status (e.g., mark as done)
+  - Track service history with optional completion date
+
+---
 
 ## 🧑‍💻 Tech Stack
 
-- Node JS
-- Express JS
-- Typescript
-- PostgreSQL
-- Prisma ORM
+- **Node.js** – Server runtime
+- **Express.js** – Web framework
+- **TypeScript** – Type safety
+- **Prisma ORM** – Database ORM
+- **PostgreSQL** – Relational database
 
-## 🛠️ Installation and Setup
+---
 
-Follow these steps to set up the project locally:
+## ⚙️ Getting Started
 
-1. **Clone the repository**
-
-   ```bash
-   git clone <repository-url>
-   cd <project-folder>
-   ```
-
-2. **Install the required dependencies**
+### 1. Clone the Repository
 
 ```bash
-yarn install
-```
-
-3. **Create a `.env` file in the root directory and configure the following environment variables**
-
-```bash
-
- DATABASE_URL=<your_database_url>
-
-```
-
-4. **Start the Server**
-
-```bash
- yarn dev
-```
-
-5. **The Live Site will be available at**
-
-```bash
-http://localhost:5000
-```
+git clone <your-repository-url>
+cd <project-folder>
