@@ -1,43 +1,48 @@
-# 🚲 BikeNest – Bike Servicing Management API
+# 🏍️ MotoServ – Bike Servicing Management API
 
-BikeNest is a powerful backend solution designed for bike servicing centers to manage their customers, bikes, and service records efficiently. It provides a structured and RESTful API built using modern web technologies to support future enhancements like authentication, invoicing, and notifications.
-
-🔗 **Live Backend URL**: [https://label2-assignment-8.vercel.app/](https://label2-assignment-8.vercel.app/)
+MotoServ is a backend API designed to simplify the management of bike servicing operations. It allows easy handling of customer profiles, bike information, and service records, enabling efficient operations for bike servicing centers. This system is built to be scalable, with future feature integrations such as authentication, invoicing, and notifications.
 
 ---
 
-## 📌 Features
+## 🔗 Live Backend Link
 
-- **Customer Management**
-  - Add new customers
-  - Update or delete customer details
-  - Retrieve customer lists or specific profiles
+**Deployed on Vercel**  
+🌐  [https://label2-assignment-8.vercel.app/](https://label2-assignment-8.vercel.app/)
 
-- **Bike Management**
-  - Register bikes under a customer
-  - Fetch bike details per customer
-
-- **Service Record Management**
-  - Add new service entries for bikes
-  - Update service status (e.g., mark as done)
-  - Track service history with optional completion date
-
----
+--- 
 
 ## 🧑‍💻 Tech Stack
 
-- **Node.js** – Server runtime
+- **Node.js** – Server-side runtime
 - **Express.js** – Web framework
-- **TypeScript** – Type safety
-- **Prisma ORM** – Database ORM
+- **TypeScript** – Strongly typed JavaScript
+- **Prisma ORM** – Database ORM for PostgreSQL
 - **PostgreSQL** – Relational database
 
 ---
 
-## ⚙️ Getting Started
+## ⚙️ Setup Guide
+
+Follow these steps to run the project locally:
 
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone <your-repo-url>
 cd <project-folder>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
