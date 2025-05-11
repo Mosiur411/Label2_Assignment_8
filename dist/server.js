@@ -17,7 +17,7 @@ const PORT = 5000;
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
         const server = app_1.default.listen(PORT, () => {
-            console.log("BikeNest Server is Running");
+            console.log("Server is Running");
         });
     });
 }
