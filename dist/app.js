@@ -15,7 +15,7 @@ app.use(express_1.default.json());
 app.get("/", (req, res) => {
     res.status(200).json({
         success: true,
-        message: "BikeNest Api Successfully Running Now...!",
+        message: "Api Successfully Running Now...!",
     });
 });
 //  Routes
