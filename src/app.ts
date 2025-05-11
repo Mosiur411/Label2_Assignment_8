@@ -13,7 +13,7 @@ app.use(express.json());
 app.get("/", (req: Request, res: Response) => {
   res.status(200).json({
     success: true,
-    message: "BikeNest Api Successfully Running Now...!",
+    message: "Api Successfully Running Now...!",
   });
 });
 
